@@ -69,6 +69,7 @@ const token:Token = someFunction(name: string);
 - **name:string** - a human readable name for the token
 - returns **token:Token**
 
+
 #### anotherFunction
 ```javascript
 anotherFunction(token: Token, value: any);
