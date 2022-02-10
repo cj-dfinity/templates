@@ -15,12 +15,21 @@ Highlight some features:
 
 Duis nisl lacus, dignissim vitae lorem vel, feugiat auctor diam. Aenean elit nunc, porta nec dignissim sit amet, bibendum sed ex. Sed tincidunt erat turpis, at fringilla leo rutrum sed.
 
-+----------------+               +----------------+
-|                |               |                |
-|    Process A   +-------------->|    Process B   |
-|                |               |                |
-+----------------+               +--------+-------+
-         ^                                |
-         |                                |
-         +--------------------------------+
+## Installation
+Step-by-step guide to get a copy of the project up and running locally for development and testing.
+
+### Prerequisites
+Which things you need to install the softwre and how to install them,
+
+```bash
+$ install required software and libraries
+```
+
+### Install
+A step-by-step guide to installing the project, including necessary configuration etc.
+
+```bash
+$ download/clone/yarn/npm project
+```
+
 
