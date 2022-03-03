@@ -29,7 +29,7 @@ The header information is used to configure the CodeLab
 
 **Headline**
 
-At the top level the headline must be defined. The headline is 
+At the top level the headline/title must be defined. The headline is defined by using a single #:
 
 ```
 # Codelab Example
@@ -44,8 +44,8 @@ The first step in the screenshot looks like this in markdown code:
 ```
 ## Introduction
 Duration: 0:01:00
+
 The Internet Computer features orthogonal persistence, which means the state of the canisters are automatically stored, so data persist when canister code is updated. Data can be stored in stable variables instead of traditional databases. 
-...
 ```
 
 **Time remaining**
@@ -60,7 +60,7 @@ The duration line in the markup will not be visible in the step content.
 
 **Examples**
 
-See the CodeLabs in this repo for learning how to write your own CodeLab, and for inspiration to how to structure the CodeLab content.
+See the CodeLabs in [documentation](https://smartcontracts.org/docs/examples/codelabs.html) for learning how to write your own CodeLab, and for inspiration to how to structure the CodeLab content.
 
 ## Build the CodeLab
 Use the `claat` tool to compile the CodeLab from the markdown file. From the directory where the markdown file is located, run this command:
