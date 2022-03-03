@@ -82,3 +82,5 @@
  - **markdown_file.md** - provide the markdown file
 
  See existing CodeLabs to see how the files and folders are organized. Please keep this file structure as automated builds will expect this structure.
+ 
+ [github.com/dfinity/docs/modules/examples/assets/images](https://github.com/dfinity/docs/tree/main/modules/examples/assets/images)
