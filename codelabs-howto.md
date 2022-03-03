@@ -88,6 +88,8 @@ The static Codelab HTML file cannot be used directly in the documentation, since
 
 ++++
 ```
+
+Save this file as an AsciiDoc file (.adoc) with an appropiate name. The file must be placed in this folder in the repository: [https://github.com/dfinity/docs/modules/examples/pages/codelabs](https://github.com/dfinity/docs/tree/main/modules/examples/pages/codelabs)
  
 ### Image file(s)
  
