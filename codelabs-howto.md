@@ -14,7 +14,7 @@ CodeLabs use Markdown, so creating a CodeLab is easy if you are used to creating
 The Markdown file for a CodeLab must have header like this:
 ``` 
 author: DFINITY
-summary: Minimal dapp for the Internet Computer
+summary: Codelab Example Project
 id: minimal_rust_dapp
 categories: codelab,markdown
 environments: Web
@@ -26,6 +26,14 @@ The header information is used to configure the CodeLab
 - **summary**: Name in the header
 - **id**: Folder name of compiled CodeLab
 - **feedback link**: URL used in the bug report link in the bottom left corner
+
+**Headline**
+
+At the top level the headline must be defined. The headline is 
+
+```
+# Codelab Example
+```
 
 **Steps**
 
@@ -80,7 +88,7 @@ When the CodeLab is created and tested locally, it can be committed to this GitH
 ### HTML file
 The static Codelab HTML file cannot be used directly in the documentation, since the docs' styling and the Codelab's styling don't mix well. To avoid this problem, the HTML is wrapped in an AsciiDoc page stripped for all formatting and styling. This will keep the Codelab's styling and functionality intact, even after compiling the AsciiDoc:
 
-```javascript
+```
 :page-layout: empty
 ++++
 
