@@ -8,14 +8,15 @@ One paragraph of project description goes here. Things to include:
 This is a high level description of the project. Describe what the project is for, what it is doing and which problem it solves. This should not be long, usually 2-3 lines is good, keep it short and precise.
 
 Highlight some features:
-- **Topic in bold**. Longer description of the topic, but keep it short.
-- **Lorem ipsum dolor sit amet**. Consectetur adipiscing elit in efficitur.
-- **Nulla lectus massa**. Congue ac nunc nec, bibendum hendrerit mi.
-- **Pellentesque dictum**. Donec sodales ligula ac dolor vehicula, at venenatis nulla feugiat.
+- Consectetur adipiscing elit in efficitur.
+- Congue ac nunc nec, bibendum hendrerit mi.
+- Donec sodales ligula ac dolor vehicula, at venenatis nulla feugiat.
 
 Duis nisl lacus, dignissim vitae lorem vel, feugiat auctor diam. Aenean elit nunc, porta nec dignissim sit amet, bibendum sed ex. Sed tincidunt erat turpis, at fringilla leo rutrum sed.
 
 ![alt text](local-workflow.png)
+
+Adding an illustration of the architecture can quickly explain how the project is built, and how it works. 
 
 ## Installation
 Step-by-step guide to get a copy of the project up and running locally for development and testing.
@@ -31,9 +32,11 @@ $ install required software and libraries
 A step-by-step guide to installing the project, including necessary configuration etc.
 
 ```bash
-$ download/clone/yarn/npm project
-$ build/make project
-$ environment config etc.
+$ git clone <GitHub repo>
+$ cd <project>
+$ npm install
+$ dfx start --background
+$ dfx deploy
 ```
 
 Nullam eu dictum ipsum, eu sagittis lacus. Integer posuere purus vel nisi sodales posuere. Donec dolor libero, posuere ac lacinia vitae, ornare a nisl. Praesent placerat quam non elit blandit, ut pretium lacus rutrum.
@@ -42,10 +45,10 @@ Nullam eu dictum ipsum, eu sagittis lacus. Integer posuere purus vel nisi sodale
 Mauris et leo sed velit suscipit pulvinar. Etiam molestie velit leo, ac suscipit dolor varius sit amet. Fusce efficitur metus quam, sed gravida quam fringilla ac. Aenean sollicitudin dui in varius vulputate.
 
 ### Example 1
-Usage examples can be commands:
+Usage examples can be Web-based:
 
 ```bash
-$ do something
+$ dfx deploy
 ```
 
 ### Example 2
