@@ -3,6 +3,7 @@ One paragraph of project description goes here. Things to include:
 - What is the primary functionality of this project?
 - What is the purpose of this project?
 - How does it look like in action? Have any screenshots, videos etc.?
+- Link to the live version, if there is one
 
 ## Introduction
 This is a high level description of the project. Describe what the project is for, what it is doing and which problem it solves. This should not be long, usually 2-3 lines is good, keep it short and precise.
@@ -12,11 +13,9 @@ Highlight some features:
 - Congue ac nunc nec, bibendum hendrerit mi.
 - Donec sodales ligula ac dolor vehicula, at venenatis nulla feugiat.
 
-Duis nisl lacus, dignissim vitae lorem vel, feugiat auctor diam. Aenean elit nunc, porta nec dignissim sit amet, bibendum sed ex. Sed tincidunt erat turpis, at fringilla leo rutrum sed.
+Adding an illustration of the architecture can quickly explain how the project is built, and how it works. 
 
 ![alt text](local-workflow.png)
-
-Adding an illustration of the architecture can quickly explain how the project is built, and how it works. 
 
 ## Installation
 Step-by-step guide to get a copy of the project up and running locally for development and testing.
