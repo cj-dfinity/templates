@@ -3,7 +3,7 @@ One paragraph of project description goes here. Things to include:
 - What is the primary functionality of this project?
 - What is the purpose of this project?
 - How does it look like in action? Have any screenshots, videos etc.?
-- Link to the live version, if there is one
+- Link to the live version/canister, if there is one
 
 ## Introduction
 This is a high level description of the project. Describe what the project is for, what it is doing and which problem it solves. This should not be long, usually 2-3 lines is good, keep it short and precise.
@@ -41,24 +41,28 @@ $ dfx deploy
 Nullam eu dictum ipsum, eu sagittis lacus. Integer posuere purus vel nisi sodales posuere. Donec dolor libero, posuere ac lacinia vitae, ornare a nisl. Praesent placerat quam non elit blandit, ut pretium lacus rutrum.
 
 ## Usage
-Mauris et leo sed velit suscipit pulvinar. Etiam molestie velit leo, ac suscipit dolor varius sit amet. Fusce efficitur metus quam, sed gravida quam fringilla ac. Aenean sollicitudin dui in varius vulputate.
+Most projects have a frontend, so link to the canister and provide a brief getting-started instruction. If the project has a backend that may be called without a frontend, which is typically the case for developer libraries, tooling, infrastructure etc., then provide some basic examples of how to use it. 
 
 ### Example 1
-Usage examples can be Web-based:
+Usage examples can be canister calls:
 
 ```bash
-$ dfx deploy
+$ dfx canister call mycanister myfunc '("abc")'
 ```
 
 ### Example 2
-It can be code:
+If the project
 
 ```javascript
-const btn = document.getElementById('button');
+import MyFunc  "mo:myproj/MyFunc";  
 
-btn.addEventListener('click', function() {
-    alert('Hello World!');
-});
+private let myFunc = MyFunc.MyFunc();
+
+...
+
+let value = myFunc("abc");
+
+...
 ```
 
 Praesent facilisis interdum sem ut dignissim. Curabitur rutrum, neque nec faucibus euismod, tellus neque commodo libero, id consectetur massa purus sed lacus. Nunc iaculis sed orci eu fermentum.
