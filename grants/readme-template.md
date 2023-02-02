@@ -170,6 +170,19 @@ Test specific feature:
 ```bash
 $ run test 1
 ```
+## Roadmap
+Describe the project roadmap, this could be the grant milestones, but it could also be the team's broader project roadmap.
+
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
+
 
 ## License
 This project is licensed under the Apache 2.0 license, see LICENSE.md for details. See CONTRIBUTE.md for details about how to contribute to this project. 
