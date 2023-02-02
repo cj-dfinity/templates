@@ -51,7 +51,7 @@ $ dfx canister call mycanister myfunc '("abc")'
 ```
 
 ### Example 2
-If the project
+If the project is added as a separate canister, show how to access the functions.
 
 ```javascript
 import MyFunc  "mo:myproj/MyFunc";  
@@ -65,25 +65,8 @@ let value = myFunc("abc");
 ...
 ```
 
-Praesent facilisis interdum sem ut dignissim. Curabitur rutrum, neque nec faucibus euismod, tellus neque commodo libero, id consectetur massa purus sed lacus. Nunc iaculis sed orci eu fermentum.
-
 ## Documentation
-Documentation can exist in the README file, but it can also be located elsewhere if it is extensive. 
-
-#### someFunction
-```javascript
-const token:Token = someFunction(name: string);
-```
-- **name:string** - a human readable name for the token
-- returns **token:Token**
-
-#### anotherFunction
-```javascript
-anotherFunction(token: Token, value: any);
-```
-- **token:Token** - a token created via someFunction
-- **value:any** - a configuration value
-- returns **undefined**
+Documentation can exist in the README file if the project only contains a few functions. It can also be located elsewhere, if it is extensive, if this is the case, link to it.  
 
 ## Testing
 Test instructions, and test scripts, for this project:
@@ -97,36 +80,6 @@ Test specific feature:
 ```bash
 $ run test 1
 ```
-
-Vestibulum pharetra interdum dolor, ut mollis diam venenatis id. Aenean nunc dolor, facilisis eu elit quis, congue accumsan mi. Phasellus ornare semper orci, ut facilisis odio cursus vel.
-
-## Deployment
-Add notes about how to deploy this project to production/public:
-
-1. Nunc at luctus elit
-2. Phasellus ornare semper orci
-3. Cras gravida aliquet maximus
-4. Nunc iaculis sed orci eu 
-
-Fusce efficitur metus quam, sed gravida quam fringilla ac. Aenean sollicitudin dui in varius vulputate. 
-
-```bash
-ENV:
-    ASDF: 1
-    QWE: 123
-    ZXC: ert
-```
-
-Mauris vel elementum sapien. Nam ipsum tortor, aliquam at nisi et, tincidunt gravida neque. Etiam malesuada, mi et pellentesque rutrum, libero nunc imperdiet nulla, sit amet pellentesque metus nisi ut sapien. Nullam iaculis risus vitae est tincidunt facilisis.
-
-```bash
-# First run this command to...
-somecmd --qwe=123 asd.qw
-# Then run this command...
-othercmd qwe asd
-```
-
-Maecenas sit amet imperdiet leo. Morbi faucibus viverra enim sit amet elementum.
 
 ## License
 This project is licensed under the Apache 2.0 license, see LICENSE.md for details. See CONTRIBUTE.md for details about how to contribute to this project. 
