@@ -66,7 +66,7 @@ let value = myFunc("abc");
 ```
 
 ## Documentation
-Documentation can exist in the README file if the project only contains a few functions. It can also be located elsewhere, if it is extensive, if this is the case, link to it.  
+Further documentation can exist in the README file if the project only contains a few functions. It can also be located elsewhere, if it is extensive, if this is the case, link to it.  
 
 ## Testing
 Test instructions, and test scripts, for this project:
