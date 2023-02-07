@@ -92,7 +92,7 @@ Describe the project roadmap, this could be the grant milestones, but it could a
 - [ ] Curabitur ornare vehicula feugiat.
 
 ## License
-This project is licensed under the Apache 2.0 license, see LICENSE.md for details. See CONTRIBUTE.md for details about how to contribute to this project. 
+This project is licensed under the MIT license, see LICENSE.md for details. See CONTRIBUTE.md for details about how to contribute to this project. 
 
 ## Acknowledgements
 - Hat tip to anyone who's code was used
